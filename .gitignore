@@ -1,0 +1,13 @@
+.env
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+backend/vector_store/*
+backend/documents/*
+!backend/vector_store/.gitkeep
+!backend/documents/.gitkeep
+
